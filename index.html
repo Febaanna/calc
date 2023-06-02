@@ -8,54 +8,90 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 
+    <link rel="icon" href="https://media.licdn.com/dms/image/C5103AQFmRFNWfqfGwA/profile-displayphoto-shrink_800_800/0/1517242777210?e=2147483647&v=beta&t=DdtdFVornGeomsB-TSnuMnDxirI1Ua7MpJ1TrRt7ahs" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 
 </head>
 <body>
-    <h1>Calculator</h1>
-    <div class="mainbody">
-        <div class="calc">
-            <div class="output">
-                <div class="output">
-                    <input type="text" id="screen">
-                </div>
-                <div class="buttons">
-                  
-                    <button onclick="cleardisplay()" class="btn">Clr</button>
-                    <div class="row">
-                    
-                        <button onclick="buttonclick(7)" class="btn">7</button>
-                        <button onclick="buttonclick(8)" class="btn">8</button>
-                        <button onclick="buttonclick(9)" class="btn">9</button>
-                        <button onclick="buttonclick('/')" class="btn">/</button>
+    
 
-                    </div>
-                    
-                    <div class="row">
-                        <button onclick="buttonclick(4)" class="btn">4</button>
-                        <button onclick="buttonclick(5)" class="btn">5</button>
-                        <button onclick="buttonclick(6)" class="btn">6</button>
-                        <button onclick="buttonclick('*')" class="btn">x</button>
-                    </div>
-                    
-                    <div class="row">
-                        <button onclick="buttonclick(1)" class="btn">1</button>
-                        <button onclick="buttonclick(2)" class="btn">2</button>
-                        <button onclick="buttonclick(3)" class="btn">3</button>
-                        <button onclick="buttonclick('-')" class="btn">-</button>
-                    </div>
-                    
-                    <div class="row">
-                        <button onclick="buttonclick('.')" class="btn">.</button>
-                        <button onclick="buttonclick(0)" class="btn">0</button>
-                        <button onclick="buttonclick('+')" class="btn">+</button>
-                        <button onclick="equalClick()" class="btn">=</button>
-                    </div>
+       <header class="bg-light" style="position:fixed; width: 100%; z-index: 1;" >
+        <div class="row text-black">
+           
+            <div class="col-md-6 col-9 p-3 pl-1"> 
+             <h2 align="center">CALCULATOR</h2>
+     
+            </div>
+        </header>
 
+       
+    
 
+            <div class="row text-black">
+           
+                
+                <div class="col-12 col-md-9 col-lg-7 col-xl-6 pt-5">
+            <div class="mainbody">
+                <div class="calc" style="background-color:grey">
+                   
+                        <div class="output">
+                            <input type="text" id="screen">
+                        </div>
+                        <div class="buttons" >
+                          
+                            <button onclick="cleardisplay()"  class="btn">Clr</button>
+                            <div class="row" >
+                            
+                                <button onclick="buttonclick(7)" class="btn" >7</button>
+                                <button onclick="buttonclick(8)" class="btn" >8</button>
+                                <button onclick="buttonclick(9)" class="btn" >9</button>
+                                <button onclick="buttonclick('/')" class="btn" >/</button>
+        
+                            </div>
+                            
+                            <div class="row">
+                                <button onclick="buttonclick(4)" class="btn">4</button>
+                                <button onclick="buttonclick(5)" class="btn">5</button>
+                                <button onclick="buttonclick(6)" class="btn">6</button>
+                                <button onclick="buttonclick('*')" class="btn">x</button>
+                            </div>
+                            
+                            <div class="row">
+                                <button onclick="buttonclick(1)" class="btn">1</button>
+                                <button onclick="buttonclick(2)" class="btn">2</button>
+                                <button onclick="buttonclick(3)" class="btn">3</button>
+                                <button onclick="buttonclick('-')" class="btn">-</button>
+                            </div>
+                            
+                            <div class="row">
+                                <button onclick="buttonclick('.')" class="btn">.</button>
+                                <button onclick="buttonclick(0)" class="btn">0</button>
+                                <button onclick="buttonclick('+')" class="btn">+</button>
+                                <button onclick="equalClick()" class="btn">=</button>
+                            </div>
+        
+        
+                        </div>
+                   
                 </div>
             </div>
+            </div>
+            
         </div>
-    </div>
+        </div>
+
+       
+    
+    </row>
+    </header>
+
+       
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
 </body>
 </html>
